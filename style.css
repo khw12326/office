@@ -1,0 +1,45 @@
+h1 {
+    color: green;
+    font-size: 100px;
+    text-align: center;
+}
+body {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2kGXsV8h5Q4p5Fa8gzDPjCYgXUVvpuun8kpIuSbyU&s);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.p{
+    font-size: 50px;
+    border: solid;
+    
+}
+.p:hover {
+    background-color: red;
+    font-weight: bold;
+}
+#topMenu {           
+    height: 30px; 
+    width: 850px; 
+}
+#topMenu ul li {                     
+    list-style: none;         
+    color: white;              
+    background-color: #2d2d2d;  
+    float: left;                
+    line-height: 30px;          
+    vertical-align: middle;     
+    text-align: center;         
+}
+#topMenu .menuLink {                               
+    text-decoration:none;                      
+    color: white;                            
+    display: block;                            
+    width: 150px;                              
+    font-size: 12px;                          
+    font-weight: bold;                         
+    font-family: "Trebuchet MS", Dotum, Arial; 
+}
+#topMenu .menuLink:hover {           
+    color: red;                 
+    background-color: #4d4d4d;    
+}

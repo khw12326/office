@@ -1,0 +1,42 @@
+.h1 {
+    text-align: center; 
+    color: white;
+    position: relative;
+    top: 180px;
+    font-size: 50px;
+    font-weight: bold;
+}
+.table {
+    color: white;
+    position: relative;
+    bottom: 320px;
+    left: 450px;
+    font-size: 20px;
+    font-weight: bold;
+}
+table, td, th {
+    border-collapse : separate;
+    border-spacing: 30px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    color: black;
+}
+.p1 {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: 110px;
+}
+.btn {
+   border-radius : 30px;
+   width: 85px;
+   height: 50px;
+   position: relative;
+   bottom: 130px;
+   left: 1300px;
+}

@@ -1,0 +1,119 @@
+.h1 {
+    text-align: center; 
+    color: white;
+    position: relative;
+    bottom: 240px;
+    font-size: 60px;
+    font-weight: bold;
+}
+.table {
+    color: white;
+    position: relative;
+    bottom: 800px;
+    left: 450px;
+    font-size: 20px;
+    font-weight: bold;
+}
+table, td, th {
+    border-collapse : separate;
+    border-spacing: 30px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    text-decoration: underline;
+}
+.p1 {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    bottom: 320px;
+    line-height: 1.5;
+}
+
+.img1 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-family: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    position: relative;
+    top: 330px;
+    right: 275px;
+}
+.img2 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-family: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    position: relative;
+    top: 330px;
+    left: 425px;
+}
+.img3 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 50%;
+}
+.backimg {
+   
+}
+.logo {
+    width: 150px;
+    height: 40px;
+    position: relative;
+    right: 1200px;
+    bottom: 295px;
+}
+.btn1 {
+    border-radius : 35px;
+    width: 78px;
+    height: 40px;
+    position: relative;
+    bottom: 580px;
+    left: 1250px;
+    border: none;
+    font-size: 15px;
+ }
+.btn2 {
+    border-radius : 30px;
+    width: 270px;
+    height: 60px;
+    position: relative;
+    font-size: 15px;
+    left: 360px;
+    bottom: 80px;
+    z-index: 1;
+}
+.btn3 {
+    border-radius : 30px;
+    width: 270px;
+    height: 60px;
+    position: relative;
+    background-color: black;
+    color: white;
+    font-size: 15px; 
+    left: 390px;
+    bottom: 80px; 
+}
+.d-icon {
+    height: 20px;
+    width: 33px;
+    position: relative;
+    top: 204px;
+    left: 470px;
+    z-index: 2;
+}

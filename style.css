@@ -1,45 +1,126 @@
-h1 {
-    color: green;
-    font-size: 100px;
+* {
+    margin: 0;
+    padding: 0;
+}
+.nav {
+    color: white;
     text-align: center;
+    border: 1px solid red;
+    position: relative;
+    bottom: 40px;
 }
-body {
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2kGXsV8h5Q4p5Fa8gzDPjCYgXUVvpuun8kpIuSbyU&s);
-    background-repeat: no-repeat;
-    background-size: cover;
+.div {
+    word-spacing: 30px;
+    position: relative;
+    bottom: 13px;
 }
-.p{
-    font-size: 50px;
-    border: solid;
+.a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
     
 }
-.p:hover {
-    background-color: red;
-    font-weight: bold;
+.a:hover {
+    text-decoration: underline;
 }
-#topMenu {           
-    height: 30px; 
-    width: 850px; 
+.logo1 {
+    width: 125px;
+    position: relative;
+    right: 480px;
+    top: 60px;
 }
-#topMenu ul li {                     
-    list-style: none;         
-    color: white;              
-    background-color: #2d2d2d;  
-    float: left;                
-    line-height: 30px;          
-    vertical-align: middle;     
-    text-align: center;         
+.btn1 {
+    width: 77px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    position: relative;
+    left: 500px;
+    top: 15px;
 }
-#topMenu .menuLink {                               
-    text-decoration:none;                      
-    color: white;                            
-    display: block;                            
-    width: 150px;                              
-    font-size: 12px;                          
-    font-weight: bold;                         
-    font-family: "Trebuchet MS", Dotum, Arial; 
+.h1 {
+    text-align: center;
+    font-size: 55px;
+    color: white;
+    position: relative;
+    top: 125px;
+    line-height: 53px;
 }
-#topMenu .menuLink:hover {           
-    color: red;                 
-    background-color: #4d4d4d;    
+.p1 {
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 175px;
+    font-size: 19px;
+    line-height: 35px;
+}
+.p2 {
+    font-size: 19px;
+    position: relative;
+    left: 1155px;
+    bottom: 170px;
+}
+.img1 {
+    position: relative;
+    right: 75px;
+    z-index: 2;
+    display: inline;
+}
+.img2 {
+    position: relative;
+    left: 660px;
+    z-index: 2;
+    display: inline;
+}
+.btn2 {
+    width: 270px;
+    height: 60px;
+    position: relative;
+    right:640px;
+    bottom: 120px;
+    border-radius: 30px;
+    border: none;
+    font-size: 20px;
+    z-index: 2;
+}
+.btn3 {
+    width: 290px;
+    height: 60px;
+    position: relative;
+    right:620px;
+    bottom: 120px;
+    border-radius: 30px;
+    border: none;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    z-index: 2;
+}
+.btn2:hover {
+    color: rgb(96, 96, 237);
+    box-shadow: 0px 0px 30px gray;
+}
+.btn1:hover {
+    color: rgb(96, 96, 237);
+    box-shadow: 0px 0px 30px gray;
+}
+.btn3:hover {
+    box-shadow: 0px 0px 30px gray;
+}
+.backimg {
+    width: 2000px;
+    position: relative;
+    bottom: 510px;
+    z-index: 1;
+    display: inline;
+}
+.img4 {
+    position: relative;
+    left: 350px;
+}
+.h2 {
+    position: relative;
+    left: 1150px;
+    top: 250px;
+    font-size: 47px;
 }

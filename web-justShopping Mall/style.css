@@ -1,0 +1,82 @@
+* {
+margin: 0;
+padding: 0;
+}
+li{list-style:none}
+a{text-decoration:none;font-size:14px}
+.menu {
+width: 800px;
+overflow: hidden;
+margin: 150px auto;
+font-weight: bold;
+position: relative;
+left: 260px;
+bottom: 150px;
+}
+
+.menu > li {
+width: 20%; /*20*5=100%*/
+float: left;
+text-align: center;
+line-height: 40px;
+}
+
+.menu a {
+color: black;
+}
+
+.submenu > li {
+line-height: 50px;
+background-color: white;
+}
+
+.submenu {
+height: 0; /*ul의 높이를 안보이게 처리*/
+overflow: hidden;
+}
+.menu > li:hover {
+background-color: rgb(208, 112, 112);
+transition-duration: 1.5s;
+}
+
+.menu > li:hover .submenu {
+height: 200px; /*서브메뉴 li한개의 높이 50*5*/
+transition-duration: 1.5s;
+}
+.submenu > li:hover {
+line-height: 50px;
+background-color: pink;
+}
+.menu:hover {
+    color: white;
+}
+*{margin:0;padding:0;}
+ul,li{list-style:none;}
+.slide{height:300px;overflow:hidden;}
+.slide ul{height:calc(100% * 4);animation:slide 8s infinite;}
+.slide li{height:calc(100% / 4);}
+.slide li:nth-child(1)
+.slide li:nth-child(2)
+.slide li:nth-child(3)
+.slide li:nth-child(4){background:none;}
+.slide {
+    position: relative;
+    left: 200px;
+    bottom: 270px;
+}
+@keyframes slide {
+  0% {margin-top:0;}
+  10% {margin-top:0;}
+  25% {margin-top:-300px;}
+  35% {margin-top:-300px;}
+  50% {margin-top:-600px;}
+  60% {margin-top:-600px;}
+  75% {margin-top:-900px;}
+  85% {margin-top:-900px;}
+  100% {margin-top:0;}
+}
+.logo {
+    position: relative;
+    top: 40px;
+    left: 190px;
+}

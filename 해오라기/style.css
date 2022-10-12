@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    user-select: none;
+}
+#main {
+    border: 2px solid gray;
+    text-align: center;
+    padding: 10px 0px;
+}
+.p {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 100px;
+}
+.img-1 {
+    width: 26%;
+    transition: 1.5s;
+    padding: 10px;
+}
+.img-2 {
+    width: 18%;
+    padding-left: 100px;
+}
+.img-1:hover {
+    transform: scale(1.2);
+}

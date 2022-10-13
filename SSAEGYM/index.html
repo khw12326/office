@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SSAEGYM</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="reset/css.css">
+<link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+<div>
+  <h1 class="h1">SSAEGYM</h1>   
+  <div id="head-menu">
+  <div class="menu-1">
+    <a href="" class="a">회원가입</a>
+    <a href="" class="a">로그인</a>
+    <a href="" class="a">마이페이지</a>
+    <a href="" class="a">고객센터</a>
+  </div>
+</div>
+<div class="container">
+  <div class="pages">
+    <div class="page one">
+      <h1 style="font-size: 80px;">Cardiovascular Exercise</h1>
+      <div>
+        <button onClick="slide('next')">Next</button>
+      </div>
+    </div>
+    <div class="page two">
+      <h1 style="font-size: 100px;">Strength Training</h1>
+      <div>
+        <button onClick="slide('prev')">Previous</button>
+        <button onClick="slide('next')">Next</button>
+      </div>
+    </div>
+    <div class="page three">
+      <h1 style="font-size: 80px;">1 On 1 professional PT</h1>
+      <div>
+        <button onClick="slide('prev')">Previous</button>
+        <button onClick="slide('next')">Next</button>
+      </div>
+    </div>
+    <div class="page four">
+      <h1 style="font-size: 80px;">Pilates</h1>
+      <div>
+        <button onClick="slide('prev')">Previous</button>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  const pages = document.querySelectorAll(".page");
+    const translateAmount = 100; 
+    let translate = 0;
+    slide = (direction) => {
+      direction === "next" ? translate -= translateAmount : translate += translateAmount;
+      pages.forEach(
+        pages => (pages.style.transform = `translateX(${translate}%)`)
+      );
+    }
+</script>
+<div>
+  <h1 class="pg-2"><span style="border: 3px solid black;">10월 쌔짐 할인 이벤트</span></h1>
+  <p style="font-size: 30px; font-weight: bold;" class="pg-2-p">쌔짐 첫 회원가입시 PT 10회 10만원<br>첫 회원 3개월 등록시 가입비 없이 6만원</p>
+</div>
+<div class="pg-3">
+  <h1 class="pg-3-p">SSAEGYM's Trainner</h1>
+  <img src="/img/man1.webp" alt="" style="width: 30%; padding-top: 100px;"><img src="/img/man2.webp" alt="" style="width: 30%;"><img src="/img/woman1.webp" alt="" style="width: 30%;">
+  <h3 style="color: white; padding-left: 10%;">김근육 트레이너</h3>
+  <h3 style="color: white; padding-left: 39%; position: relative; bottom: 30px;">이괴력 트레이너</h3>
+  <h3 style="color: white; padding-left: 73%; position: relative; bottom: 50px;"> 나멸치 트레이너</h3>
+</div>
+</body>
+</html>

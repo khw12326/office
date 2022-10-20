@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SSAEGYM | 쌔짐</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="reset/css.css">
+<link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+<div>
+  <h1 class="h1">SSAEGYM</h1>   
+  <div id="head-menu">
+  <div class="menu-1">
+    <a href="http://127.0.0.1:5501/register/register.html" class="a">회원가입</a>
+    <a href="http://127.0.0.1:5501/login.html" class="a">로그인</a>
+    <a href="" class="a">마이페이지</a>
+    <a href="" class="a">고객센터</a>
+  </div>
+</div>
+<div class="container">
+  <div class="pages">
+    <div class="page one">
+      <h1 style="font-size: 80px;">Cardiovascular Exercise</h1>
+      <div>
+        <button onClick="slide('next')">Next</button>
+      </div>
+    </div>
+    <div class="page two">
+      <h1 style="font-size: 100px;">Strength Training</h1>
+      <div>
+        <button onClick="slide('prev')">Previous</button>
+        <button onClick="slide('next')">Next</button>
+      </div>
+    </div>
+    <div class="page three">
+      <h1 style="font-size: 80px;">1 On 1 professional PT</h1>
+      <div>
+        <button onClick="slide('prev')">Previous</button>
+        <button onClick="slide('next')">Next</button>
+      </div>
+    </div>
+    <div class="page four">
+      <h1 style="font-size: 80px;">Pilates</h1>
+      <div>
+        <button onClick="slide('prev')">Previous</button>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  const pages = document.querySelectorAll(".page");
+    const translateAmount = 100; 
+    let translate = 0;
+    slide = (direction) => {
+      direction === "next" ? translate -= translateAmount : translate += translateAmount;
+      pages.forEach(
+        pages => (pages.style.transform = `translateX(${translate}%)`)
+      );
+    }
+</script>
+<div>
+  <h1 class="pg-2"><span style="border: 3px solid black;">10월 SSAEGYM 할인 이벤트</span></h1>
+  <p style="font-size: 30px; font-weight: bold;" class="pg-2-p">SSAEGYM 첫 회원가입시 PT 10회 10만원<br>첫 회원 3개월 등록시 가입비 없이 6만원</p>
+</div>
+<div class="pg-4">
+  <h1 class="h-4">Consult with an expert trainer anytime, anywhere</h1>
+</div>
+<div>
+  <h1 style="padding: 300px; text-align: center; font-size: 50px; font-weight: bold;">I wish you a better tomorrow.</h1>
+</div>
+<div class="pg-3">
+  <h1 style="color: white; text-align: center; border: 3px solid white;">SSAEGYM's Representative Trainer </h1>
+  <a href="https://namu.wiki/w/%EA%B9%80%EC%A2%85%EA%B5%AD"><img src="/img/pf-1.jfif" alt="" style="width: 15%; position: relative; bottom: 10px;"></a><a href="https://namu.wiki/w/%EB%A1%9C%EB%8B%88%20%EC%BD%9C%EB%A8%BC"><img src="/img/pf-2.jfif" alt="" width="20%"></a><a href="https://namu.wiki/w/%EC%95%84%EB%86%80%EB%93%9C%20%EC%8A%88%EC%9B%8C%EC%A0%9C%EB%84%A4%EA%B1%B0?from=%EC%95%84%EB%86%80%EB%93%9C%20%EC%8A%88%EC%99%88%EC%A0%9C%EB%84%A4%EA%B1%B0"><img src="/img/pf-3.jfif" alt="" width="17%"></a><a href="https://namu.wiki/w/%EC%96%91%EC%B9%98%EC%8A%B9"><img src="/img/pf-4.jpg" alt="" width="15%"></a><a href="https://namu.wiki/w/%ED%97%A4%ED%97%A4"><img src="/img/pf-5.jpg" alt="" width="13%"></a><a href="https://namu.wiki/w/%EC%95%84%EB%8B%A4%EB%A7%88%20%ED%8A%B8%EB%9D%BC%EC%98%A4%EB%A0%88"><img src="/img/pf-7.jpg" alt="" width="20%" height="100%"></a>
+</div>
+</body>
+</html>

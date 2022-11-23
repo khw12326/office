@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.title {
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: black;
+    position: relative;
+    top: 10px;
+}
+.a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+.li {
+    color: black;
+    font-size: 10px;
+    margin-left: 30px;
+    list-style-type: none;
+}
+.li:hover {
+    font-weight: bold;
+}
+.menu {
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 20px;
+}
+.div {
+    float: right;
+    margin-left: 30px;
+    
+}

@@ -1,0 +1,257 @@
+
+*{padding:0;margin:0;font-family: jua; color: white;}
+li{list-style:none}
+a{text-decoration:none;font-size:14px}
+/* .menu {
+    position: absolute;
+    width: 800px;
+    overflow: hidden;
+    margin: 150px auto;
+    border-radius: 10px;
+    position: fixed;
+  }
+  
+  .menu > li {
+    width: 20%; 
+    float: left;
+    text-align: center;
+    line-height: 40px;
+    background-color: black;
+  }
+  
+  .menu a {
+    color: #fff;
+  }
+  
+  .submenu > li {
+    line-height: 50px;
+    background-color: #888;
+    z-index: 100;
+  }
+  
+  .submenu {
+    height: 0; 
+    overflow: hidden;
+  }
+  .menu > li:hover {
+    transition-duration: 0.5s;
+  }
+  
+  .menu > li:hover .submenu {
+    height: 250px; 
+  } */
+.title {
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+/* li:hover {
+    background-color: black;
+} */
+@font-face {
+  font-family: jua;
+  src: url(/fonts/BMJUA_ttf.ttf);
+}
+.me {
+  top: 100px;
+  position: relative;
+  left: 80px;
+  border-bottom: 3px solid #fde047;
+  width: 88%;
+}
+.me1 {
+  top: 400px;
+  position: relative;
+  left: 80px;
+  border-bottom: 3px solid #fde047;
+  width: 88%;
+}
+.me2 {
+  top: 700px;
+  position: relative;
+  left: 80px;
+  border-bottom: 3px solid #fde047;
+  width: 88%;
+}
+.me3 {
+  top: 1000px;
+  position: relative;
+  left: 80px;
+  border-bottom: 3px solid #fde047;
+  width: 88%;
+}
+
+/* ///////////////////////////////////////////////////////// */
+.game-1 {
+  width: 20%;
+  position: absolute;
+  padding-top: 130px;
+  padding-left: 80px;
+}
+.game-2 {
+  height: 42%;
+  width: 20%;
+  position: absolute;
+  padding-top: 130px;
+  padding-left: 350px;
+}
+.game-3 {
+  height: 40%;
+  width: 20%;
+  position: absolute;
+  padding-top: 130px;
+  padding-left: 620px;
+}
+.game-4 {
+  width: 20%;
+  position: absolute;
+  padding-top: 130px;
+  padding-left: 900px;
+}
+/* ///////////////////////////////////////////////////////// */
+.game-5 {
+  width: 20%;
+  position: absolute;
+  padding-top: 430px;
+  padding-left: 80px;
+}
+.game5 {
+  width: 20%;
+  position: absolute;
+  padding-top: 430px;
+  padding-left: 80px;
+}
+.game-6 {
+  width: 20%;
+  position: absolute;
+  padding-top: 430px;
+  padding-left: 350px;
+}
+.game6 {
+  width: 20%;
+  position: absolute;
+  padding-top: 430px;
+  padding-left: 350px;
+}
+.game-7 {
+  width: 20%;
+  position: absolute;
+  padding-top: 430px;
+  padding-left: 620px;
+}
+.game7 {
+  width: 20%;
+  position: absolute;
+  padding-top: 430px;
+  padding-left: 620px;
+}
+.game-8 {
+  width: 20%;
+  position: absolute;
+  padding-top: 430px;
+  padding-left: 900px;
+}
+.game8 {
+  width: 20%;
+  position: absolute;
+  padding-top: 430px;
+  padding-left: 900px;
+}
+/* //////////////////////////////////////////////////////////////////// */
+.game-9 {
+  width: 20%;
+  position: absolute;
+  padding-top: 730px;
+  padding-left: 80px;
+}
+.game9 {
+  width: 20%;
+  position: absolute;
+  padding-top: 730px;
+  padding-left: 80px;
+}
+.game-10 {
+  width: 20%;
+  position: absolute;
+  padding-top: 730px;
+  padding-left: 350px;
+}
+.game10 {
+  width: 20%;
+  position: absolute;
+  padding-top: 730px;
+  padding-left: 350px;
+}
+.game-11 {
+  width: 20%;
+  position: absolute;
+  padding-top: 730px;
+  padding-left: 620px;
+}
+.game11 {
+  width: 20%;
+  position: absolute;
+  padding-top: 730px;
+  padding-left: 620px;
+}
+.game-12 {
+  width: 20%;
+  position: absolute;
+  padding-top: 730px;
+  padding-left: 900px;
+}
+.game12 {
+  width: 20%;
+  position: absolute;
+  padding-top: 730px;
+  padding-left: 900px;
+}
+/* ///////////////////////////////////////////////////////////////////// */
+.game-13 {
+  width: 20%;
+  position: absolute;
+  padding-top: 1030px;
+  padding-left: 80px;
+}
+.game13 {
+  width: 20%;
+  position: absolute;
+  padding-top: 1030px;
+  padding-left: 80px;
+}
+.game-14 {
+  width: 20%;
+  position: absolute;
+  padding-top: 1030px;
+  padding-left: 350px;
+}
+.game14 {
+  width: 20%;
+  position: absolute;
+  padding-top: 1030px;
+  padding-left: 350px;
+}
+.game-15 {
+  width: 20%;
+  position: absolute;
+  padding-top: 1030px;
+  padding-left: 620px;
+}
+.game15 {
+  width: 20%;
+  position: absolute;
+  padding-top: 1030px;
+  padding-left: 620px;
+}
+.game-16 {
+  width: 20%;
+  position: absolute;
+  padding-top: 1030px;
+  padding-left: 900px;
+}
+.game16 {
+  width: 20%;
+  position: absolute;
+  padding-top: 1030px;
+  padding-left: 900px;
+}

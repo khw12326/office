@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Just 쇼핑몰</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <a href="#"><img src="/img/logo.png" alt="" class="logo"></a>
+        <div class="menu_bar">
+            <ul>
+                <li class="menu"><a href="" class="a">탑</a>
+                    <ul>
+                        <li class="submenu"><a href="#" class="a">블라우스</a></li>
+                        <li class="submenu"><a href="#" class="a">티</a></li>
+                        <li class="submenu"><a href="#" class="a">셔츠</a></li>
+                        <li class="submenu"><a href="#" class="a">니트</a></li>
+                    </ul>
+                </li>
+                <li class="menu"><a href="" class="a">아우터</a>
+                    <ul>
+                        <li class="submenu"><a href="#" class="a">자켓</a></li>
+                        <li class="submenu"><a href="#" class="a">코트</a></li>
+                        <li class="submenu"><a href="#" class="a">가디건</a></li>
+                        <li class="submenu"><a href="#" class="a">머플러</a></li>
+                    </ul>
+                </li>
+                <li class="menu"><a href="" class="a">팬츠</a>
+                    <ul>
+                        <li class="submenu"><a href="#" class="a">청바지</a></li>
+                        <li class="submenu"><a href="#" class="a">짧은바지</a></li>
+                        <li class="submenu"><a href="#" class="a">긴바지</a></li>
+                        <li class="submenu"><a href="#" class="a">레깅스</a></li>
+                    </ul>
+                </li>
+                <li class="menu"><a href="" class="a">악세서리</a>
+                    <ul>
+                        <li class="submenu"><a href="#" class="a">귀고리</a></li>
+                        <li class="submenu"><a href="#" class="a">목걸이</a></li>
+                        <li class="submenu"><a href="#" class="a">반지</a></li>
+                        <li class="submenu"><a href="#" class="a">팔찌</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="slide">
+        <img src="/img/slide1.jpg" alt="" class="slide01">
+    </div>
+    <div id="tab_wrap">
+        <div class="tab_title">
+            <div class="notice_on">공지사항</div>
+            <div class="gallery_off">갤러리</div>
+        </div>
+        <div class="contents_box">
+            <ul class="notice_letter">
+                <li><a href="#">1번 공지사항을 써주세요</a><span>20-05-18</span></li>
+                <li><a href="#">2번 공지사항을 써주세요</a><span>20-05-17</span></li>
+                <li><a href="#">3번 공지사항을 써주세요</a><span>20-05-16</span></li>
+                <li><a href="#">4번 공지사항을 써주세요</a><span>20-05-15</span></li>
+            </ul>
+            <ul class="gallery_img">
+                <li><a hef="#"><img src="img/thumb1.png" alt="이미지1"></a></li>
+                <li><a hef="#"><img src="img/thumb2.png" alt="이미지2"></a></li>
+                <li><a hef="#"><img src="img/thumb3.png" alt="이미지3"></a></li>
+            </ul>
+        </div>
+    </div>
+    <div>
+        <img src="/img/banner01.jpg" alt="" class="banner01">
+        <img src="/img/banner02.jpg" alt="" class="banner02">
+    </div>
+    <script>
+        //갤러리 버튼 클릭
+$('.gallery_off').click(function(){
+    $('.notice_letter').hide(); //공지사항 내용 숨기기
+    $('.gallery_img').css({'display' : 'flex',}); //갤러리 내용 나타내기
+    $(this).attr('class','gallery_on'); //갤러리 버튼 CSS 변경
+    $('.notice_on').attr('class','notice_off'); //공지사항 버튼 CSS 변경
+});
+
+//공지사항 버튼 클릭
+$('.notice_on').click(function(){
+    $('.notice_letter').show(); //공지사항 내용 나타내기
+    $('.gallery_img').hide(); //갤러리 내용 숨기기
+    $(this).attr('class','notice_on'); //공지사항 버튼 CSS변경
+    $('.gallery_on').attr('class','gallery_off'); //갤러리 버튼 CSS 변경
+});
+    </script>
+</body>
+</html>

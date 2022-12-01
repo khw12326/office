@@ -1,0 +1,143 @@
+* {
+    user-select: none;
+    margin: 0;
+    padding: 0;
+}
+
+.a {
+    text-decoration: none;
+    color: grey;
+    font-weight: bold;
+}
+.menu {
+    display: flex;
+    float: left;
+    list-style-type: none;
+    padding: 10px;
+    padding: 20px 60px 0px 60px;
+}
+.menu:hover {
+    background-color: brown;
+}
+.submenu {
+    list-style-type: none;
+    display: none;
+}
+.logo {
+    padding-top: 30px;
+    position: absolute;
+    width: 12%;
+    padding-left: 15%;
+}
+.menu_bar {
+    float: right;
+    background-color: antiquewhite;
+    display: inline;
+    margin: 30px 150px 0px 10px;
+}
+.slide01 {
+    padding-top: 50px;
+    padding-left: 16%;
+    width: 74.5%;
+}
+#tab_wrap{
+    width: 380px;
+    height: 180px;
+    padding: 10px;
+    padding-left: 235px;
+}
+.tab_title{
+    position: absolute;
+    width: 1000%;
+    font-size: 0;
+    z-index: 2;
+    cursor: pointer;
+}
+.notice_on{
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 1rem;
+    background: white;
+    background: white;
+    z-index: 3;
+}
+.notice_off{
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 1rem;
+    background: lightgrey;
+    z-index: 3;
+}
+
+.gallery_off{
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 1rem;
+    background: lightgrey;
+}
+.gallery_on{
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 1rem;
+    background: white;
+}
+.contents_box{
+    position: absolute;
+    margin-top: 29px;
+    width: 355px;
+    height: 125px;
+    z-index: 1;
+}
+.notice_letter{
+    display: block;
+    padding: 10px;
+    width: 355px;
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.notice_letter>li{
+    line-height: 27px;
+    font-size: 0.9rem;
+}
+.notice_letter>li>a{
+    float: left;
+}
+.notice_letter>li>span{
+    float: right;
+}
+
+.gallery_img{
+    display: none; /*활성시 flex*/
+    justify-content: space-between; 
+    padding: 10px;
+    width: 355px;
+    height: 125px;
+    font-size: 0;
+}
+.gallery_img>li{
+    display: inline-block;
+    overflow: hidden;
+    background: black;
+    width: 100px;
+    height: 100px;
+}
+
+.gallery_img>li>a>img{
+    width: 100px;
+    height: 100px;
+}

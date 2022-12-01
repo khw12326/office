@@ -1,126 +1,269 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-.nav {
-    color: white;
+
+*{padding:0;margin:0;font-family: jua; color: #fde047;}
+li{list-style:none}
+a{text-decoration:none;font-size:14px}
+/* .menu {
+    position: absolute;
+    width: 800px;
+    overflow: hidden;
+    margin: 150px auto;
+    border-radius: 10px;
+    position: fixed;
+  }
+  
+  .menu > li {
+    width: 20%; 
+    float: left;
     text-align: center;
-    border: 1px solid red;
-    position: relative;
-    bottom: 40px;
-}
-.div {
-    word-spacing: 30px;
-    position: relative;
-    bottom: 13px;
-}
-.a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    
-}
-.a:hover {
-    text-decoration: underline;
-}
-.logo1 {
-    width: 125px;
-    position: relative;
-    right: 480px;
-    top: 60px;
-}
-.btn1 {
-    width: 77px;
-    height: 40px;
-    border-radius: 20px;
-    border: none;
-    position: relative;
-    left: 500px;
-    top: 15px;
-}
-.h1 {
-    text-align: center;
-    font-size: 55px;
-    color: white;
-    position: relative;
-    top: 125px;
-    line-height: 53px;
-}
-.p1 {
-    text-align: center;
-    color: white;
-    position: relative;
-    top: 175px;
-    font-size: 19px;
-    line-height: 35px;
-}
-.p2 {
-    font-size: 19px;
-    position: relative;
-    left: 1155px;
-    bottom: 170px;
-}
-.img1 {
-    position: relative;
-    right: 75px;
-    z-index: 2;
-    display: inline;
-}
-.img2 {
-    position: relative;
-    left: 660px;
-    z-index: 2;
-    display: inline;
-}
-.btn2 {
-    width: 270px;
-    height: 60px;
-    position: relative;
-    right:640px;
-    bottom: 120px;
-    border-radius: 30px;
-    border: none;
-    font-size: 20px;
-    z-index: 2;
-}
-.btn3 {
-    width: 290px;
-    height: 60px;
-    position: relative;
-    right:620px;
-    bottom: 120px;
-    border-radius: 30px;
-    border: none;
-    font-size: 18px;
+    line-height: 40px;
     background-color: black;
-    color: white;
-    z-index: 2;
-}
-.btn2:hover {
-    color: rgb(96, 96, 237);
-    box-shadow: 0px 0px 30px gray;
-}
-.btn1:hover {
-    color: rgb(96, 96, 237);
-    box-shadow: 0px 0px 30px gray;
-}
-.btn3:hover {
-    box-shadow: 0px 0px 30px gray;
-}
-.backimg {
-    width: 2000px;
+  }
+  
+  .menu a {
+    color: #fff;
+  }
+  
+  .submenu > li {
+    line-height: 50px;
+    background-color: #888;
+    z-index: 100;
+  }
+  
+  .submenu {
+    height: 0; 
+    overflow: hidden;
+  }
+  .menu > li:hover {
+    transition-duration: 0.5s;
+  }
+  
+  .menu > li:hover .submenu {
+    height: 250px; 
+  } */
+.title {
+    text-align: center;
     position: relative;
-    bottom: 510px;
-    z-index: 1;
-    display: inline;
+    top: 50px;
 }
-.img4 {
-    position: relative;
-    left: 350px;
+/* li:hover {
+    background-color: black;
+} */
+@font-face {
+  font-family: jua;
+  src: url(/fonts/BMJUA_ttf.ttf);
 }
-.h2 {
-    position: relative;
-    left: 1150px;
-    top: 250px;
-    font-size: 47px;
+.me {
+  top: 100px;
+  position: relative;
+  left: 80px;
+  border-bottom: 3px solid #fde047;
+  width: 88%;
+}
+.me1 {
+  top: 400px;
+  position: relative;
+  left: 80px;
+  border-bottom: 3px solid #fde047;
+  width: 88%;
+}
+.me2 {
+  top: 700px;
+  position: relative;
+  left: 80px;
+  border-bottom: 3px solid #fde047;
+  width: 88%;
+}
+.me3 {
+  top: 1000px;
+  position: relative;
+  left: 80px;
+  border-bottom: 3px solid #fde047;
+  width: 88%;
+}
+
+/* ///////////////////////////////////////////////////////// */
+.game-1 {
+  width: 20%;
+  position: absolute;
+  padding-top: 130px;
+  padding-left: 80px;
+}
+.game-2 {
+  height: 42%;
+  width: 20%;
+  position: absolute;
+  padding-top: 130px;
+  padding-left: 350px;
+}
+.game-3 {
+  height: 40%;
+  width: 20%;
+  position: absolute;
+  padding-top: 130px;
+  padding-left: 620px;
+}
+.game-4 {
+  width: 20%;
+  position: absolute;
+  padding-top: 130px;
+  padding-left: 900px;
+}
+/* ///////////////////////////////////////////////////////// */
+.game-5 {
+  width: 20%;
+  position: absolute;
+  padding-top: 430px;
+  padding-left: 80px;
+}
+.game5 {
+  width: 20%;
+  position: absolute;
+  padding-top: 430px;
+  padding-left: 80px;
+}
+.game-6 {
+  width: 20%;
+  height: 32%;
+  position: absolute;
+  padding-top: 430px;
+  padding-left: 350px;
+}
+.game6 {
+  width: 20%;
+  position: absolute;
+  padding-top: 430px;
+  padding-left: 350px;
+}
+.game-7 {
+  height: 30%;
+  width: 20%;
+  position: absolute;
+  padding-top: 430px;
+  padding-left: 620px;
+}
+.game7 {
+  width: 20%;
+  position: absolute;
+  padding-top: 430px;
+  padding-left: 620px;
+}
+.game-8 {
+  height: 30%;
+  width: 20%;
+  position: absolute;
+  padding-top: 430px;
+  padding-left: 900px;
+}
+.game8 {
+  width: 20%;
+  position: absolute;
+  padding-top: 430px;
+  padding-left: 900px;
+}
+/* //////////////////////////////////////////////////////////////////// */
+.game-9 {
+  height: 30%;
+  width: 20%;
+  position: absolute;
+  padding-top: 730px;
+  padding-left: 80px;
+}
+.game9 {
+  width: 20%;
+  position: absolute;
+  padding-top: 730px;
+  padding-left: 80px;
+}
+.game-10 {
+  height: 30%;
+  width: 20%;
+  position: absolute;
+  padding-top: 730px;
+  padding-left: 350px;
+}
+.game10 {
+  width: 20%;
+  position: absolute;
+  padding-top: 730px;
+  padding-left: 350px;
+}
+.game-11 {
+  height: 30%;
+  width: 20%;
+  position: absolute;
+  padding-top: 730px;
+  padding-left: 620px;
+}
+.game11 {
+  width: 20%;
+  position: absolute;
+  padding-top: 730px;
+  padding-left: 620px;
+}
+.game-12 {
+  height: 30%;
+  
+  width: 20%;
+  position: absolute;
+  padding-top: 730px;
+  padding-left: 900px;
+}
+.game12 {
+  width: 20%;
+  position: absolute;
+  padding-top: 730px;
+  padding-left: 900px;
+}
+/* ///////////////////////////////////////////////////////////////////// */
+.game-13 {
+  height: 30%;
+  width: 20%;
+  position: absolute;
+  padding-top: 1030px;
+  padding-left: 80px;
+}
+.game13 {
+  width: 20%;
+  position: absolute;
+  padding-top: 1030px;
+  padding-left: 80px;
+}
+.game-14 {
+  height: 30%;
+  width: 20%;
+  position: absolute;
+  padding-top: 1030px;
+  padding-left: 350px;
+}
+.game14 {
+  width: 20%;
+  position: absolute;
+  padding-top: 1030px;
+  padding-left: 350px;
+}
+.game-15 {
+  height: 30%;
+  width: 20%;
+  position: absolute;
+  padding-top: 1030px;
+  padding-left: 620px;
+}
+.game15 {
+  width: 20%;
+  position: absolute;
+  padding-top: 1030px;
+  padding-left: 620px;
+}
+.game-16 {
+  height: 30%;
+  width: 20%;
+  position: absolute;
+  padding-top: 1030px;
+  padding-left: 900px;
+}
+.game16 {
+  width: 20%;
+  position: absolute;
+  padding-top: 1030px;
+  padding-left: 900px;
 }
